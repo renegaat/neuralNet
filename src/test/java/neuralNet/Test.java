@@ -16,6 +16,7 @@ public class Test {
 	public static double XOR_IDEAL[][] = { { 0.0 }, { 1.0 }, { 1.0 }, { 0.0 } };
 	
 	
+
 	public static void main(String[] args) {
 		
 		final FeedforwardNetwork network = new FeedforwardNetwork();

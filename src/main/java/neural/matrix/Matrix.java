@@ -89,11 +89,7 @@ public class Matrix implements Cloneable, Serializable {
 	}
 
 	
-	
-	
-	
-	
-	
+
 	@Override
 	public Matrix clone() {
 		return new Matrix(this.matrix);

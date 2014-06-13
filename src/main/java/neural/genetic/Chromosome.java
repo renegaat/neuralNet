@@ -137,6 +137,7 @@ abstract public class Chromosome<GENE_TYPE, GA_TYPE extends GeneticAlgorithm<?>>
 		return null;
 	}
 
+
 	/**
 	 * Assuming this chromosome is the "mother" mate with the passed in
 	 * "father".
@@ -205,6 +206,8 @@ abstract public class Chromosome<GENE_TYPE, GA_TYPE extends GeneticAlgorithm<?>>
 
 	}
 
+	
+	
 	/**
 	 * Called to mutate this chromosome.
 	 */
