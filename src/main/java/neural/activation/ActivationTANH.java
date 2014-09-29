@@ -40,6 +40,8 @@ public class ActivationTANH implements ActivationFunction {
 		return result;
 	}
 	
+	
+	
 	/**
 	 * Some training methods require the derivative.
 	 * @param The input.
