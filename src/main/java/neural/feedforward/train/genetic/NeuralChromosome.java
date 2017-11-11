@@ -87,7 +87,7 @@ abstract public class NeuralChromosome<GA_TYPE extends GeneticAlgorithm<?>>
 	@Override
 	public void setGenes(final Double[] list) throws NeuralNetworkError {
 
-		// copy the new genes
+		// copy the new genes. this is a test
 		super.setGenes(list);
 
 		calculateCost();
